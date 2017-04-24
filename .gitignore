@@ -1,0 +1,4 @@
+venv/
+set_env.sh
+old/
+all_email_list.txt
