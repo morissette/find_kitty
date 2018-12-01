@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# before running this gen lists with:
+# for i in `seq 0 999`; do printf "%03d\n" $i; done > second_uniq.txt # second section of a phone number
+# for i in `seq 0 9999`; do printf "%04d\n" $i; done > third_uniq.txt # third section of a phone number
 import itertools
 
 # cell email to sms gateways
