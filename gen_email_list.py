@@ -1,6 +1,7 @@
 """
 Generate possible emails from phone number
 list
+Run: ./gen_email_list.py > all_email_list.txt
 """
 
 with open('all_numbers.txt') as df:
