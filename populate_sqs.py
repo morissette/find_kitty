@@ -1,5 +1,6 @@
 """
 Upload emails to SQS
+Note: must setup AWS env vars
 """
 import os
 import uuid

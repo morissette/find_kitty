@@ -3,6 +3,8 @@ To prevent blacklist issues with blasting mail
 from a single source; adopt a distributed worker
 model to process emails across a series of
 worker nodes
+
+Note: Digital Ocean uber cheap to do this
 """
 import os
 import time
